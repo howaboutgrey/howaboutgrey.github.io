@@ -1791,7 +1791,7 @@ img {
 }
 
 .image-22 {
-  width: 100%;
+  width: 90%;
   margin-right: 40px;
   margin-left: auto;
   border-radius: 200px;
@@ -1958,6 +1958,15 @@ img {
 
   .section-18 {
     padding-left: 60px;
+  }
+
+  .image-22 {
+    width: 70%;
+    margin-left: 60px;
+  }
+
+  .paragraph-3.long {
+    width: 90%;
   }
 
   .navbar {
