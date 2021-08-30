@@ -3178,8 +3178,8 @@ img {
   }
 
   .heading-7 {
-    margin-bottom: auto;
-    font-size: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
   }
 
   .div-block-36 {
@@ -3364,7 +3364,7 @@ img {
 
   .heading-14 {
     margin-bottom: auto;
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .text-block-10 {
@@ -3393,7 +3393,8 @@ img {
 
   .heading-15 {
     margin-bottom: auto;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 700;
   }
 
   .section-18 {
