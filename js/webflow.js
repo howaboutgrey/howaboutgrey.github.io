@@ -18630,7 +18630,10 @@ Webflow.define('slider', module.exports = function ($, _) {
     } // Create aria live label
 
 
-    data.ariaLiveLabel = $(ariaLiveLabelHtml).appendTo(data.mask); // Add attributes to left/right buttons
+    if (!designer) {
+      data.ariaLiveLabel = $(ariaLiveLabelHtml).appendTo(data.mask);
+    } // Add attributes to left/right buttons
+
 
     data.left.attr('role', 'button');
     data.left.attr('tabindex', '0');
@@ -19083,7 +19086,10 @@ Webflow.define('slider', module.exports = function ($, _) {
     } // Announce slide change to screen reader
 
 
-    data.ariaLiveLabel.text("Slide ".concat(index + 1, " of ").concat(anchors.length, ".")); // Cross Fade / Out-In
+    if (!designer) {
+      data.ariaLiveLabel.text("Slide ".concat(index + 1, " of ").concat(anchors.length, "."));
+    } // Cross Fade / Out-In
+
 
     if (animation === 'cross') {
       var reduced = Math.round(duration - duration * config.crossOver);
